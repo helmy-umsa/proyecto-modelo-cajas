@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    background-color: darkslategrey;
+    padding: 20px;
+}
+
+.contenedor2 {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.caja {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.nivel1 {
+    background-color: crimson;
+    margin: 0;
+}
+
+.nivel2 {
+    background-color: orange;
+}
+
+.nivel3 {
+    background-color: yellow;
+}
+
+.nivel4 {
+    background-color: green;
+}
+
+.nivel5 {
+    background-color: blue;
+}
+
+.nivel6 {
+    background-color: purple;
+}
+
+.nivel7 {
+    background-color: hotpink;
+    padding: calc(5px/2);
+}
+
+.contenedor2 .nivel1:first-child {
+    margin-bottom: 20px;
+}
+
+.contenedor2 .nivel1:last-child {
+    margin-bottom: 0px;
+}
